@@ -44,8 +44,9 @@
   .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
   .project-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 30px; color: oklch(0.96 0.008 300); }
   .project-desc { font-size: 14.5px; color: oklch(0.68 0.02 300); max-width: 480px; line-height: 1.5; margin-top: 8px; }
-  .footnote { font-size: 15px; color: oklch(0.68 0.10 300); text-decoration: none; vertical-align: super; margin-left: 2px; }
+  .footnote { font-size: 9px; color: oklch(0.68 0.10 300); text-decoration: none; vertical-align: super; margin-left: 2px; }
   .footnote:hover { color: oklch(0.80 0.17 300); }
+  .footnote-source { font-size: 10.5px; color: oklch(0.48 0.02 300); }
   .stats { display: flex; gap: 32px; flex-shrink: 0; }
   .stat-num { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 32px; color: oklch(0.88 0.14 300); text-align: right; }
   .stat-label { font-size: 12px; color: oklch(0.60 0.02 300); text-align: right; }
@@ -95,7 +96,7 @@
       <div class="card-top">
         <div>
           <div class="project-name">libphonenumber-csharp</div>
-          <div class="project-desc">The official Google-recognized<a class="footnote" href="https://github.com/google/libphonenumber/blob/master/README.md?plain=1#L232" title="Per Google's libphonenumber README">*</a> third-party C# port of libphonenumber &mdash; published as a NuGet package used across the .NET ecosystem.</div>
+          <div class="project-desc">The official Google-recognized<a class="footnote" href="https://github.com/google/libphonenumber/blob/master/README.md?plain=1#L232" title="Per Google's libphonenumber README">1</a> third-party C# port of libphonenumber &mdash; published as a NuGet package used across the .NET ecosystem.</div>
         </div>
         <div class="stats">
           <div>
@@ -119,6 +120,8 @@
           <a class="btn btn-outline" href="https://www.nuget.org/packages/libphonenumber-csharp/">Install via NuGet</a>
         </div>
       </div>
+
+      <div class="footnote-source">1. github.com/google/libphonenumber/blob/master/README.md#L232</div>
     </div>
   </div>
 

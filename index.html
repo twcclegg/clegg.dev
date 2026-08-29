@@ -46,8 +46,9 @@
   .project-desc { font-size: 14.5px; color: oklch(0.68 0.02 300); max-width: 480px; line-height: 1.5; margin-top: 8px; }
   .footnote { font-size: 9px; color: oklch(0.68 0.10 300); text-decoration: none; vertical-align: super; margin-left: 2px; }
   .footnote:hover { color: oklch(0.80 0.17 300); }
-  .footnote-source { font-size: 9px; color: oklch(0.48 0.02 300); }
-  .footnote-source a { color: oklch(0.48 0.02 300); text-decoration: underline; }
+  .footnote-source { font-size: 9px; color: oklch(0.48 0.02 300); display: flex; gap: 4px; align-items: baseline; }
+  .footnote-source .num { flex-shrink: 0; }
+  .footnote-source a { color: oklch(0.48 0.02 300); text-decoration: underline; word-break: break-all; }
   .footnote-source a:hover { color: oklch(0.68 0.10 300); }
   .stats { display: flex; gap: 32px; flex-shrink: 0; }
   .stat-num { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 32px; color: oklch(0.88 0.14 300); text-align: right; }
@@ -123,7 +124,7 @@
         </div>
       </div>
 
-      <div class="footnote-source">1. <a href="https://github.com/google/libphonenumber/blob/master/README.md?plain=1#L232">github.com/google/libphonenumber/blob/master/README.md#L232</a></div>
+      <div class="footnote-source"><span class="num">1.</span><a href="https://github.com/google/libphonenumber/blob/master/README.md?plain=1#L232">github.com/google/libphonenumber/blob/master/README.md#L232</a></div>
     </div>
   </div>
 
